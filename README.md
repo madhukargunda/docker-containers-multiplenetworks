@@ -47,7 +47,15 @@ Step5 : Inspect the newly created network
 
 <img width="1665" alt="docker network myappnetwork" src="https://user-images.githubusercontent.com/5623861/55671998-6607c700-58c8-11e9-83b5-3b354310ccab.png">
 
-Step 6: Now all three containers are attached to the both the networks
+Step 6: Now all three containers are attached to the both the networks.
+Refer the below screen image container is attached to the both the networks
+
+```
+Inspect the docker container and each container is attached to both the networks
+docker container inspect 755
+```
+<img width="1633" alt="docker container inspect" src="https://user-images.githubusercontent.com/5623861/55672670-4379ac00-58d0-11e9-87b9-2338edcec7b4.png">
+
 
    
 
