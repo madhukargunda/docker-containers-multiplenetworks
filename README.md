@@ -3,6 +3,12 @@ docker containers in multiple networks
 
 In this article i am going to describe how to attach single container to multiple networks
 
+## The Target Architecture
+
+![docker-containers-on-multiple_networks](https://user-images.githubusercontent.com/5623861/56472489-8a9b9b80-6491-11e9-8d1c-3f02c3b25ab9.jpg)
+
+
+
 Step 1 : Create three different docker images mysql,nginx and httpd using the below commands
 
 ```
